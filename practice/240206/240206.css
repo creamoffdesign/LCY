@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  width: 100%;
+  height: 50vw;
+}
+.section .article_container {
+  width: 42.24%;
+  height: 67.7%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.section .article_container .article {
+  width: 48.95%;
+  height: 48.77%;
+  display: flex;
+  border: 2px solid #707070;
+  align-items: center;
+}
+.section .article_container .article .map {
+  width: 100%;
+  height: 100%;
+}
+.section .article_container .article .box {
+  width: 100%;
+  height: 60.57%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.section .article_container .article .box .icon {
+  width: 15%;
+}
+.section .article_container .article .box p:nth-child(2) {
+  font-size: 0.78vw;
+  color: #707070;
+}
+.section .article_container .article .box p:nth-child(3) {
+  font-size: 1.04vw;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.54vw;
+}
+.section .article_container .article .box p:nth-child(4) {
+  font-size: 0.62vw;
+  color: #707070;
+}
+.section .article_container .article .box2 {
+  height: 41.32%;
+}

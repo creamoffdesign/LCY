@@ -1,0 +1,67 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.section {
+  width: 100%;
+  height: 47.08vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section .intro {
+  width: 56.67%;
+  font-size: 1.04vw;
+  font-weight: 700;
+  color: #1e1e1c;
+  text-align: left;
+  line-height: 1.7vw;
+}
+.section .article_container {
+  width: 56.67%;
+  height: 62.17%;
+  /* margin: 0 auto; */
+/* margin-right: auto;
+margin-left: auto; */
+  /* margin-top: 1vw;
+  margin-right: 2vw;
+  margin-bottom: 1vw;
+  margin-left: 2vw; */
+  /* margin: 1vw 2vw; */
+  /* margin: 1vw 2vw 3vw 2vw; */
+  margin-top: 1.82vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section .article_container .article {
+  width: 92.92%;
+  height: 16.9%;
+  display: flex;
+  align-items: center;
+  margin-top: 2.45vw;
+  margin-bottom: 2.45vw;
+}
+.section .article_container hr {
+  width: 100%;
+  border: 1px solid #D4D4D4;
+}
+.section .article_container .article img {
+  width: 10.78%;
+}
+.section .article_container .article .title {
+  width: 9.1%;
+  font-size: 1.82vw;
+  font-weight: 700;
+  color: #8F63DA;
+  margin-left: 4.69vw;
+}
+.section .article_container .article .content {
+  font-size: 0.78vw;
+  font-weight: 700;
+  color: #1e1e1c;
+  letter-spacing: -0.01vw;
+  margin-left: 3.91vw;
+}
