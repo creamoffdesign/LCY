@@ -11,6 +11,18 @@ css시작
   /* 높이 */
   border: 1px solid black;
   /* 테두리: 1px 채우다 검정; */
+  [자식요소 선택 설정]
+  .section .article_container img:nth-child(n)
+  /* .section .article_container 클래스의 img의 자식요소 (n번째) */
+  .section .article_container img:nth-child(2n)
+  /* .section .article_container 클래스의 img의 자식요소 (짝수번쨰) */
+  .section .article_container img:nth-child(2n+1)
+  /* .section .article_container 클래스의 img의 자식요소 (홀수번쨰) */
+  .section .article_container img:first-child
+  /* .section .article_container 클래스의 img의 자식요소 (첫번째) */
+  .section .article_container img:last-child
+  /* .section .article_container 클래스의 img의 자식요소 (마지막) */
+
 }
 .여백 {
   margin-top: vw;
@@ -30,7 +42,7 @@ css시작
   display: flex;
   /* 표시, 표명: 유연하게; */
   flex-wrap: wrap;
-  [줄바꿈정렬]
+  
                  /* 유연하게-감싸다: 감싸다; */ 
   flex-direction: column;
   [주축축변경]
@@ -52,8 +64,19 @@ css시작
                  /* 정렬-내용물: 양쪽; */     
   display: inline;
   [기본정렬로바꾸기]
-                 /* 표시: 렬; */          
-}
+                 /* 표시: 렬; */   
+  {{*절대좌표(레이어)*     
+  position: relative;
+  (상위영역에 선언/코드삽입)
+  /* 위치: 관계;*/
+  position: absolute;
+  (하위영역에 선언/코드삽입)
+  /* 위치: 절대적인;*/
+  top: 50%/vw;
+  left: 50%/vw;
+  /* 좌표설정 */
+  transform: translate(-50%, -50%);
+  /* 기지모 변경(좌표설정) */}}
 
 .텍스트 {
   font-size: 1.04vw;
@@ -68,4 +91,9 @@ css시작
   letter-spacing: vw; 
   [자간]
   /* 글자-공간: ; */
+}
+
+.효과 {
+  cursor: pointer;
+  /* 커서: 포인터; 마우스 누르기 모양 */
 }
