@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+  .sc .ac .a .ctat {
+    width: 100%;
+  }
+  .sc .ac .a .stlt {
+    font-size: 2vw;
+  }
+  .bx {
+    background-color: red;
+  }
+}
