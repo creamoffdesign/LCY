@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.section1 {
+  width: 100%;
+  height: 67.45vw;
+}
+.section1 > p:nth-child(1) {
+  font-size: 1.3vw;
+  font-weight: 600;
+  color: #1e1e1c;
+  margin-top: 2.34vw;
+  margin-left: 21.67vw;
+}
+.section1 .article_container {
+  width: 40.63%;
+  height: 56.6%;
+  margin: 0 auto;
+  margin-top: 5.05vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section1 .article_container .article {
+  width: 100%;
+  height: 48.16%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.section1 .article_container .article .input_box {
+  width: 48.97%;
+  height: 19.26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.section1 .article_container .article .input_box p {
+  font-size: 0.78vw;
+  font-weight: 700;
+  color: #000000;
+}
+.section1 .article_container .article .input_box p sup {
+  color: #8f63da;
+}
+.section1 .article_container .article .input_box input {
+  background-color: #ebebeb;
+  height: 55.88%;
+  border: none;
+  padding-left: 0.5vw;
+  font-size: 0.62vw;
+}
+.section1 .article_container .article:nth-child(2) {
+  display: inherit;
+}
+.section1 .article_container .article:nth-child(2) p {
+  font-size: 0.78vw;
+  font-weight: 700;
+  color: #000000;
+}
+.section1 .article_container .article:nth-child(2) p:nth-child(3) {
+  margin-top: 1.41vw;
+}
+.section1 .article_container .article:nth-child(2) p sup {
+  color: #8f63da;
+}
+.section1 .article_container .article:nth-child(2) input {
+  background-color: #ebebeb;
+  width: 100%;
+  height: 17%;
+  border: 1px solid #707070;
+  font-size: 0.62vw;
+  color: #707070;
+  text-align: center;
+  margin-top: 0.52vw;
+}
+.section1 .article_container .article:nth-child(2) input:nth-child(4) {
+  width: 100%;
+  height: 55.52%;
+  margin-top: 0.52vw;
+}
+.section1 .agree {
+  width: 40.63%;
+  margin: 0 auto;
+  margin-top: 1vw;
+  display: flex;
+  align-items: center;
+}
+.section1 .agree img {
+  width: 1.2vw;
+}
+.section1 .agree p {
+  font-size: 0.62vw;
+  font-weight: 400;
+  color: #707070;
+  margin-left: 0.5vw;
+}
+.section1 .btn {
+  width: 7.81%;
+  height: 3.86%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 4.43vw;
+}
+.section1 .btn p {
+  font-size: 0.78vw;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
