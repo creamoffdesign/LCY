@@ -126,6 +126,15 @@ css시작
 }
 
 
+.이미지 {
+  백그라운드 이미지
+  background-image: url("/practice/240224/240224_02_img/main_bg4.jpg");
+  백그라운드 이미지 사이즈
+  background-size: cover;:이미지 사이즈를 이미지 부모요소에 꽉 채우기
+  이미지 맞춤
+  fit-content;
+}
+
 
 .효과 {
   cursor: pointer;
